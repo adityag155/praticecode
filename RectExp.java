@@ -37,3 +37,11 @@ ml.area(rect);
 ml.perimeter(rect);
 }
 }
+
+
+//Enter width of rectangle
+20
+Enter length of rectangle
+40
+Area of rectangle=800.0
+Perimeter of rectangle=120.0//
