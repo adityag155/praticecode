@@ -15,3 +15,9 @@ System.out.println(f1.a);
 System.out.println(f2.a);
 }
 }
+/*
+O/P:
+100
+100 
+100
+*/
