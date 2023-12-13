@@ -25,6 +25,13 @@ else if(num1<num2)
 }
 else {
 	System.out.println(num1+"both number are equal"+num2);
+}sc.close();
 }
 }
-}
+
+/*
+ * O/P:
+ * Enter the first number: 20
+Enter the second number: 30
+20is less than30
+*/
