@@ -43,4 +43,9 @@ public class DemoWsitch {
 			}
 		}
 
-
+/*
+O/P:
+Enter a number between 1 to 7:
+7
+The day is:Sunday
+*/
