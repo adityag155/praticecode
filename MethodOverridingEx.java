@@ -30,3 +30,9 @@ public class MethodOverridingEx {
 		s.access();
 	}
 }
+
+/*
+O/P:
+Meth defined in First class
+Meth Define din Second class
+*/
