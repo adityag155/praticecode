@@ -11,7 +11,6 @@ public class IfelseifEx {
 		System.out.println("Enter the number:");
 		num =sc.nextInt();
 		
-		
 		if(num>0)
 		{
 			System.out.println("Positive Number");
@@ -23,10 +22,8 @@ public class IfelseifEx {
 		else
 		{
 				System.out.println("ZERO");
-		}
-			
+		}	
 	}
-
 }
 
 /*
