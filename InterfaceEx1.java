@@ -3,7 +3,7 @@ package adiiapplication;
 interface MyInter{
 	int VAR_NUM=200;
 }
-class MyClass{}
+class MyClass implements MyInter{}
 
 public class InterfaceEx1 {
 
