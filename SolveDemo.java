@@ -47,3 +47,9 @@ System.out.println("Rectangle Area: " + result.rectangleArea);
 System.out.println("Triangle Area: " + result.triangleArea);
 }
 }
+
+/*
+O/P:
+Rectangle Area: 2000.0
+Triangle Area: 2100.0
+*/
