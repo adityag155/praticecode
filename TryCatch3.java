@@ -1,42 +1,38 @@
-public class TryCatch3
+package adiiapplication;
+
+public class TryCatch3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+try 
 {
+	int m=100, n=Integer.parseInt(args[0]);
+	int k=m/n;
+	System.out.println("K="+k);
+}
 
-    public static void main(String[] args)
- {
+catch(ArithmeticException e)
+{
+	System.out.println("Cant divided by zero");
+}
 
-        try
- {
-            // Code that may throw an exception
+catch(ArrayIndexOutOfBoundsException ae)
+{
+	System.out.println("Invalid array Index");
+}
 
-            int result = divideNumbers(10, 0);
-
-            System.out.println("Result: " + result);
- // This line won't be executed if an exception occurs
-
-        }
-
- catch (ArithmeticException e)
- {
-
-            // Handling the specific exception (ArithmeticException in this case)
-            System.out.println("An error occurred: " + e.getMessage());
-
-        }
-
-    }
-
-
-    public static int divideNumbers(int dividend, int divisor)
- {
-
-        return dividend / divisor;
- // This can throw an ArithmeticException if divisor is 0
- 
-   }
+catch(NumberFormatException e)
+{
+	System.out.println("Invalid Input");
+}
+System.out.println("After catch");
+	}
 
 }
 
 /*
-O/P:
-An error occurred: / by zero
+ * O/P:
+ * Invalid array Index
+After catch
 */
