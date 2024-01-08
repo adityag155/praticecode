@@ -5,7 +5,6 @@ public void run()
 for(int i=1;i<=4;i++)
 {
 System.out.println(Thread.currentThread().getName()+":"+i);
-
 try
 {
 Thread.sleep(1000);
@@ -15,6 +14,7 @@ catch(InterruptedException ie)
 }
 }
 }
+
 
 class ThreadLogic2 implements Runnable
 {
@@ -23,7 +23,6 @@ public void run()
 for(int i=5;i<=8;i++)
 {
 System.out.println(Thread.currentThread().getName()+":"+i);
-
 try
 {
 Thread.sleep(1000);
@@ -33,6 +32,8 @@ catch(InterruptedException ie)
 }
 }
 }
+
+
 
 class MyThread
 {
@@ -45,6 +46,7 @@ t2=new Thread(new ThreadLogic2(),tname2);
 
 t1.start();
 t2.start();
+
 }
 }
 class ThreadCreate2
