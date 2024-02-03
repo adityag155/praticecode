@@ -48,6 +48,10 @@ System.out.println(v);		//O/P:[One, Two, Three, Four]
 First f=new First();
 v.add(f);
 System.out.println(v);
+
+First obj=(First)v.get(4);
+obj.display();
+System.out.println(f==obj);
 }
 }
 
@@ -68,4 +72,6 @@ Four
 [One, Five, Two, Three, Four]
 [One, Two, Three, Four]
 [One, Two, Three, Four, Desc of First class]
+This is display
+true
 */
