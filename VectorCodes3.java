@@ -40,8 +40,13 @@ System.out.println((String)v.get(i));
 
 v.add(1,"Five");		//Here at index one Five will be added
 System.out.println(v);		//[One, Five, Two, Three, Four]
+
+
+v.remove(1);			//Here index 1 word will be removed
+System.out.println(v);		//O/P:[One, Two, Three, Four]
 }
 }
+
 
 /*
 O/P:
@@ -58,4 +63,5 @@ Two
 Three
 Four
 [One, Five, Two, Three, Four]
+[One, Two, Three, Four]
 */
