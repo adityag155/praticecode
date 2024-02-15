@@ -1,3 +1,5 @@
+//for reading file you have to 1st creat 1st file in same folder then put the name of file
+
 import java.io.*;
 class ReadngFle
 {
