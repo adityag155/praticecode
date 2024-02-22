@@ -1,0 +1,10 @@
+create table Receipt(
+receipt_no number(7),
+admission_id number(5),
+receipt_date varchar2(15),
+receipt_amount number(10));
+
+select * from Receipt;
+drop table Receipt;
+
+insert into Receipt values(5,105,'12-jan-2024',70000);
