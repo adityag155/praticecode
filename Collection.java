@@ -13,11 +13,15 @@ System.out.println(Name);
 		
 Name.add("Ajith");
 System.out.println(Name);
+
+Name.add(1,"Saurabh");
+System.out.println(Name);
 }
 }
 
 /*
  * O/P:
- * [Adi, Anu, Ani, Omii]
-[Adi, Anu, Ani, Omii, Ajith]
+ * [Adi, Anu, Ani, Omi]
+[Adi, Anu, Ani, Omi, Ajith]
+[Adi, Saurabh, Anu, Ani, Omi, Ajith]
 */
