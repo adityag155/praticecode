@@ -20,3 +20,6 @@ oos.writeObject(s1);
 System.out.println("Object saved in file");
 }
 }
+
+//FileOutputStream class can be used to write data on file
+//We have ObjectOutputStream class & that class has writeObject() method for serialization object
