@@ -16,6 +16,17 @@ System.out.println(Name);
 
 Name.add(1,"Saurabh");
 System.out.println(Name);
+
+Name.remove(4);
+System.out.println(Name);
+
+Name.set(0,"Kedar");			//Set method can be used to replace value
+System.out.println(Name);
+
+System.out.println(Name.get(2));	//get method is used to print specific value
+
+Name.clear();
+System.out.println(Name);
 }
 }
 
@@ -24,4 +35,8 @@ System.out.println(Name);
  * [Adi, Anu, Ani, Omi]
 [Adi, Anu, Ani, Omi, Ajith]
 [Adi, Saurabh, Anu, Ani, Omi, Ajith]
+[Adi, Saurabh, Anu, Ani, Ajith]
+[Kedar, Saurabh, Anu, Ani, Ajith]
+Anu
+[]
 */
