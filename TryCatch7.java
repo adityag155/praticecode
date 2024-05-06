@@ -21,7 +21,6 @@ public class TryCatch7 {
 		return a/b;
 	}
 }
-
 /*
 O/P:
 cant divided by zero
