@@ -14,7 +14,6 @@ Box b=new Box();
 b.width=10;
 b.height=11;
 b.length=12;
-
 b.volume();
 }
 }
